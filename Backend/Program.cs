@@ -1,4 +1,5 @@
 using Backend.Data;
+using Backend.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DatalogicDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//Inyección de dependencia para el Servicio de Productos
+builder.Services.AddScoped<IProductsService, ProductsService>();
 
 
 // Add services to the container.
