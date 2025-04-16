@@ -6,8 +6,6 @@ C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\dotnet
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.cymp1amu5g.js
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.js.map
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.4w9wkdxkbx.pdb
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.pbsb7q0f7t.wasm
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
@@ -245,7 +243,6 @@ C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Linq.Expressions.l5530ew3rl.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Thread.cxq9cadks4.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.u8iuy20vvu.wasm.gz
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.4w9wkdxkbx.pdb.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.InteropServices.0kr58pyot5.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Net.Quic.6rpdsd1cky.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.45mdkltlcc.wasm.gz
@@ -298,7 +295,6 @@ C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.Core.rov4p20cgi.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.IO.FileSystem.vgbx8s3be4.wasm.gz
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.pbsb7q0f7t.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Extensions.lcwd5nnnzg.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XPath.XDocument.dvarvms6fh.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\System.Globalization.am7w2aiu51.wasm.gz
@@ -1064,9 +1060,6 @@ C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\326zqjge7o-4b0
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\iw0ae27wof-tjcz0u77k5.gz
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\285b9jwisc-tptq2av103.gz
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\gigkqu8b6v-lfu7j35m59.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\idv3gmpu33-pbsb7q0f7t.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\820j4a4l7m-4w9wkdxkbx.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\njn95cf9xo-5lxwa07hc5.gz
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\staticwebassets.build.json
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\staticwebassets.development.json
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1082,3 +1075,20 @@ C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\Frontend.dll
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\refint\Frontend.dll
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\Frontend.pdb
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\ref\Frontend.dll
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\Frontend.sourcelink.json
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared.gr2ky063ap.pdb
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared.mkarcn2ojc.wasm
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared.gr2ky063ap.pdb.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared.mkarcn2ojc.wasm.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\Shared.dll
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\Shared.pdb
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\webcil\Shared.wasm
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\sgf3f4t1rs-mkarcn2ojc.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\5oz7yg4z9z-gr2ky063ap.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.u0ebyoda35.pdb
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.eyvj8l12lr.wasm
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.u0ebyoda35.pdb.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.eyvj8l12lr.wasm.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\idv3gmpu33-eyvj8l12lr.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\820j4a4l7m-u0ebyoda35.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\njn95cf9xo-16x3dvs51y.gz

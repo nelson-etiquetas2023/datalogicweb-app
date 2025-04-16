@@ -9,3 +9,4 @@ C:\Programacion\DatalogicWeb\Shared\obj\Debug\net9.0\Shared.dll
 C:\Programacion\DatalogicWeb\Shared\obj\Debug\net9.0\refint\Shared.dll
 C:\Programacion\DatalogicWeb\Shared\obj\Debug\net9.0\Shared.pdb
 C:\Programacion\DatalogicWeb\Shared\obj\Debug\net9.0\ref\Shared.dll
+C:\Programacion\DatalogicWeb\Shared\obj\Debug\net9.0\Shared.sourcelink.json

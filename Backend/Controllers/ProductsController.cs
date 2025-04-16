@@ -1,7 +1,6 @@
 ﻿using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 using Shared.Model;
-using System.Formats.Asn1;
 
 namespace Backend.Controllers
 {
@@ -17,6 +16,7 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
+        [Route("getproducts")]
         public async Task<ActionResult<List<Product>>> Getproducts() 
         {
             return Ok(await productservice.GetProductsAsync());
