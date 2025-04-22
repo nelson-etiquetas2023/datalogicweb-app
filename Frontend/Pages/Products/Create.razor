@@ -1,5 +1,7 @@
 ﻿@page "/Products/Create"
 @using Shared.Model
+@inject HttpClient httpClient
+@inject NavigationManager navigator
 
 <h3>Add Products</h3>
 <div class="row">
@@ -25,7 +27,7 @@
             <input type="text" class="form-control shadow" id="location" @bind-value="@producto.Location" />
         </div>
         <div style="margin-top:30px;">
-            <button class="btn btn-primary">Save Product</button>
+            <button class="btn btn-primary" @onclick="SaveProducts">Save Product</button>
             <button class="btn btn-primary">Return Main</button>
         </div>
     </div>
@@ -36,6 +38,31 @@
 @code {
 
     public Product producto { get; set; } = new();
+
+    public async Task SaveProducts()
+    {
+        using (httpClient = new())
+        {
+            var url = $"http://192.168.10.13:8080/api/products/AddProducts";
+            httpClient.DefaultRequestHeaders.Accept.Clear();
+            try
+            {
+                var response = await httpClient.PostAsJsonAsync<Product>(url, producto);
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"error : {ex.Message}");
+            }
+            navigator.NavigateTo("../Products/Index");
+        }
+
+    }
+
+
 
 
 

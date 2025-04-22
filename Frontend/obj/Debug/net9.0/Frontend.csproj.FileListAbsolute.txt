@@ -1085,10 +1085,10 @@ C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared
 C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Shared.2hdseue1yp.wasm.gz
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\sgf3f4t1rs-2hdseue1yp.gz
 C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\5oz7yg4z9z-lanygf8cpk.gz
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.pkgn9bws8j.pdb
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.dpnncp55a4.wasm
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.pkgn9bws8j.pdb.gz
-C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.dpnncp55a4.wasm.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\idv3gmpu33-dpnncp55a4.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\820j4a4l7m-pkgn9bws8j.gz
-C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\njn95cf9xo-9iu6rak7ip.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.46yq4gd6l2.pdb
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.rcgfloatxk.wasm
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.46yq4gd6l2.pdb.gz
+C:\Programacion\DatalogicWeb\Frontend\bin\Debug\net9.0\wwwroot\_framework\Frontend.rcgfloatxk.wasm.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\idv3gmpu33-rcgfloatxk.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\820j4a4l7m-46yq4gd6l2.gz
+C:\Programacion\DatalogicWeb\Frontend\obj\Debug\net9.0\compressed\njn95cf9xo-i4d04g1nqt.gz

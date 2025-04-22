@@ -30,6 +30,7 @@ namespace Backend.Controllers
         }
 
         [HttpPost]
+        [Route("addproducts")]
         public async Task<ActionResult<Product>> Post(Product producto) 
         {
             var created = await productservice.CreateProductAsync(producto);
