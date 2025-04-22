@@ -31,36 +31,24 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>1</td>
-            <td>10040</td>
-            <td>Salsa de Tomate de 400gr</td>
-            <td>$250.41</td>
-            <td>Charcouteria</td>
-            <td>50</td>
-            <td>A50-10-10</td>
-            <td><a href="#" class="mx-2">Update</a><a href="#" class="mx-2">Delete</a><a href="#">Details</a> </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>10041</td>
-            <td>Mayonesa Hellmans 400gr</td>
-            <td>$350.50</td>
-            <td>Alimentos y Bebidas</td>
-            <td>100</td>
-            <td>A51-11-10</td>
-            <td><a href="#" class="mx-2">Update</a><a href="#" class="m-2">Delete</a><a href="#">Details</a> </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>10042</td>
-            <td>Salsa Rosada Albeca 400gr</td>
-            <td>$200.50</td>
-            <td>Alimentos y Bebidas</td>
-            <td>100</td>
-            <td>A51-11-10</td>
-            <td><a href="#" class="mx-2">Update</a><a href="#">Delete</a> </td>
-        </tr>
+        @{
+            int fila = 0;
+        }
+        @foreach (var item in products!)
+        {
+            fila = fila + 1; 
+            <tr>
+                <td>@fila</td>
+                <td>@item.Id</td>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Category</td>
+                <td>@item.Quantity</td>
+                <td>@item.Location</td>
+                <td><a href="#" class="icon-link me-3">Update</a><a href="#" class="icon-link">Delete</a></td>
+            </tr>
+        }
+
     </tbody>
 </table>
 
