@@ -2,10 +2,12 @@
 @using Shared.Model
 @using System.Text.Json
 @inject HttpClient httpClient
+@inject NavigationManager navigator
+
 
 <PageTitle>Products</PageTitle>
 <h3>Products Page</h3>
-<button class="btn btn-primary" style="margin-bottom:20px">Add Products</button>
+<button class="btn btn-primary" style="margin-bottom:20px" @onclick="AddProducts">Add Products</button>
 
 <table class="table table-bordered table-striped shadows">
     <thead>
@@ -78,5 +80,9 @@
             Console.WriteLine($"error : {ex.Message}");
         }
         return products!;
+    }
+    public void AddProducts()
+    {
+        navigator.NavigateTo("/Products/Create");
     }
 }

@@ -36,8 +36,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programacion/DatalogicWeb/Frontend/Pages/Products/Component.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ29tcG9uZW50LnJhem9y
+[C:/Programacion/DatalogicWeb/Frontend/Pages/Products/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Programacion/DatalogicWeb/Frontend/Pages/Products/Index.razor]
