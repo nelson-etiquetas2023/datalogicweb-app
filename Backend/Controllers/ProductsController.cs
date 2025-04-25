@@ -6,26 +6,22 @@ namespace Backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController : ControllerBase
+    public class ProductsController(IProductsService productsService) : ControllerBase
     {
 
-        public IProductsService productservice { get; set; }
-        public ProductsController(IProductsService productsService)
-        {
-            this.productservice = productsService;
-        }
+        public IProductsService Productservice { get; set; } = productsService;
 
         [HttpGet]
         [Route("getproducts")]
-        public async Task<ActionResult<List<Product>>> Getproducts() 
+        public async Task<ActionResult<List<Product>>> Getproducts()
         {
-            return Ok(await productservice.GetProductsAsync());
+            return Ok(await Productservice.GetProductsAsync());
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProductById(int id) 
+        [HttpGet("buscarproducto")]
+        public async Task<ActionResult<Product>> GetProductoById([FromQuery] int id) 
         {
-            var producto = await productservice.GetProductByIdAsync(id);
+            var producto = await Productservice.GetProductByIdAsync(id);
             return producto is null ? NotFound() : Ok(producto);
         }
 
@@ -33,22 +29,22 @@ namespace Backend.Controllers
         [Route("addproducts")]
         public async Task<ActionResult<Product>> Post(Product producto) 
         {
-            var created = await productservice.CreateProductAsync(producto);
-            return CreatedAtAction(nameof(GetProductById), new { id = created!.Id }, created);
+            var created = await Productservice.CreateProductAsync(producto);
+            return CreatedAtAction(nameof(GetProductoById), new { id = created!.Id }, created);
         }
 
-        [HttpPut("id")]
-        public async Task<ActionResult<bool>> Put(int id, Product producto) 
+        [HttpPut("CambiarProducto")]
+        public async Task<ActionResult<bool>> UpdateProduct([FromQuery] int id,[FromBody] Product producto) 
         {
             if (id != producto.Id) return BadRequest();
-            var updated = await productservice.UpdateproductAsync(producto);
+            var updated = await Productservice.UpdateproductAsync(producto);
             return updated ? NoContent() : NotFound();
         }
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<bool>> Delete(int id) 
         {
-            var eliminated = await productservice.DeleteProductAsync(id);
+            var eliminated = await Productservice.DeleteProductAsync(id);
             return eliminated ? NoContent() : NotFound();
         }
 

@@ -5,6 +5,7 @@
 @inject NavigationManager navigator
 
 
+
 <PageTitle>Products</PageTitle>
 <h3>Products Page</h3>
 <button class="btn btn-primary" style="margin-bottom:20px" @onclick="AddProducts">Add Products</button>
@@ -47,7 +48,8 @@
                 <td>@item.Category</td>
                 <td>@item.Quantity</td>
                 <td>@item.Location</td>
-                <td><a href="#" class="icon-link me-3">Update</a><a href="#" class="icon-link">Delete</a></td>
+                <td><a href="#" class="icon-link me-3"> Details</a>
+                    <a href="/products/update/@item.Id" class="icon-link me-3">Update</a><a href="#" class="icon-link">Delete</a></td>
             </tr>
         }
 

@@ -1,0 +1,107 @@
+﻿@page "/products/update/{id:int}"
+@using Shared.Model
+@using System.Text.Json
+@inject HttpClient httpClient
+@inject NavigationManager navigator
+
+
+<h3>Update Products</h3>
+@if(producto is null)
+{
+    <p>Cargando el producto</p>
+}
+else
+{
+    <div class="row">
+        <div class="col-4">
+            <EditForm Model="@producto" OnValidSubmit="SaveProducts">
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Product Id:</label>
+                    <InputNumber type="text" readonly class="form-control shadow" id="id" @bind-value="@producto.Id" />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Name Product:</label>
+                    <InputText type="text" class="form-control shadow" id="name" @bind-value="@producto.ProductName" />
+                    <ValidationMessage For="@(() => producto.ProductName)" />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Price:</label>
+                    <InputNumber class="form-control shadow" id="price" @bind-Value="@producto.Price" />
+                    <ValidationMessage For="@(() => producto.Price)" />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Category:</label>
+                    <InputText class="form-control shadow" id="category" @bind-Value="@producto.Category" />
+                    <ValidationMessage For="@(() => producto.Category)" />
+                </div>
+                <div class="form-control mb-3">
+                    <label class="fw-bold">Quantity:</label>
+                    <InputNumber class="form-control shadow" id="quantity" @bind-Value="@producto.Quantity" />
+                    <ValidationMessage For="@(() => producto.Quantity)" />
+                </div>
+                <div class="form-control mb-3">
+                    <label class="fw-bold">Location:</label>
+                    <InputText class="form-control shadow" id="location" @bind-Value="@producto.Location" />
+                    <ValidationMessage For="@(() => producto.Quantity)" />
+                </div>
+                <div style="margin-top:30px;">
+                    <button type="submit" class="btn btn-primary">Save Product</button>
+                    <button class="btn btn-primary">Return Products</button>
+                </div>
+            </EditForm>
+
+            
+            
+            
+           
+        </div>
+    </div>
+
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    public Product producto { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        producto = await GetProduct();
+    }
+
+    private async Task<Product> GetProduct()
+    {
+        var url = $"http://192.168.10.13:8080/api/products/buscarproducto?id={id}";
+        using (httpClient = new())
+        {
+            var response = await httpClient.GetAsync(url);
+            var reponseString = await response.Content.ReadAsStringAsync();
+            var item = JsonSerializer.Deserialize<Product>(reponseString, new JsonSerializerOptions()
+            {
+                    PropertyNameCaseInsensitive = true
+            });
+            return item!;
+        }
+    }
+    private async Task SaveProducts()
+    {
+        using (httpClient = new())
+        {
+            try
+            {
+                var url = $"http://192.168.10.13:8080/api/products/CambiarProducto?id={producto.Id}";
+                httpClient.DefaultRequestHeaders.Clear();
+                var response = await httpClient.PutAsJsonAsync<Product>(url, producto);
+                var responseString = await response.Content.ReadAsStringAsync();
+
+            }
+            catch (HttpRequestException httpex)
+            {
+                Console.WriteLine($"Error: {httpex.Message}");
+            }
+            navigator.NavigateTo("../products/index");
+        }
+    }
+
+}

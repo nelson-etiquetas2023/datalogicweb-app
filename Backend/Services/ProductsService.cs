@@ -4,43 +4,40 @@ using Shared.Model;
 
 namespace Backend.Services
 {
-    public class ProductsService : IProductsService
+    public class ProductsService(DatalogicDbContext context) : IProductsService
     {
-        public DatalogicDbContext context { get; set; }
-        public ProductsService(DatalogicDbContext context)
-        {
-            this.context = context;
-        }
+        public DatalogicDbContext Context { get; set; } = context;
+
         public async Task<List<Product>> GetProductsAsync()
         {
-            return await context.Productos.ToListAsync();
+            return await Context.Productos.ToListAsync();
         }
         public async Task<Product?> GetProductByIdAsync(int id)
         {
-            return await context.Productos.FindAsync(id);
+            return await Context.Productos.FindAsync(id);
         }
         public async Task<Product?> CreateProductAsync(Product producto)
         {
-            context.Productos.Add(producto);
-            await context.SaveChangesAsync();
+            Context.Productos.Add(producto);
+            await Context.SaveChangesAsync();
             return producto;
         }
         public async Task<bool> UpdateproductAsync(Product producto)
         {
-            var exists = await context.Productos.AnyAsync(p => p.Id  == producto.Id);
+            var exists = await Context.Productos.AnyAsync(p => p.Id  == producto.Id);
             if (!exists) return false;
 
-            context.Entry(producto).State = EntityState.Modified;
-            await context.SaveChangesAsync();
+            Context.Entry(producto).State = EntityState.Modified;
+            await Context.SaveChangesAsync();
             return true;
         }
         public async Task<bool> DeleteProductAsync(int id)
         {
-            var producto = await context.Productos.FindAsync(id);
+            var producto = await Context.Productos.FindAsync(id);
             if (producto is null) return false;
 
-            context.Productos.Remove(producto);
-            await context.SaveChangesAsync();
+            Context.Productos.Remove(producto);
+            await Context.SaveChangesAsync();
             return true;
         }
     }

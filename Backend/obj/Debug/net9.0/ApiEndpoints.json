@@ -1,32 +1,6 @@
 [
   {
     "ContainingType": "Backend.Controllers.ProductsController",
-    "Method": "GetProductById",
-    "RelativePath": "api/Products/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Shared.Model.Product",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Backend.Controllers.ProductsController",
     "Method": "Delete",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
@@ -79,15 +53,21 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductsController",
-    "Method": "Getproducts",
-    "RelativePath": "api/Products/getproducts",
+    "Method": "GetProductoById",
+    "RelativePath": "api/Products/buscarproducto",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Shared.Model.Product, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shared.Model.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -99,8 +79,8 @@
   },
   {
     "ContainingType": "Backend.Controllers.ProductsController",
-    "Method": "Put",
-    "RelativePath": "api/Products/id",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/CambiarProducto",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -119,6 +99,26 @@
     "ReturnTypes": [
       {
         "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.Controllers.ProductsController",
+    "Method": "Getproducts",
+    "RelativePath": "api/Products/getproducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Shared.Model.Product, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
