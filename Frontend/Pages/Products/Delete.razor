@@ -1,0 +1,97 @@
+﻿@page "/products/delete/{id:int}"
+@using Shared.Model
+@using System.Text.Json
+@inject HttpClient httpClient
+@inject NavigationManager navigator 
+
+<h3>Delete Products</h3>
+@if(producto is null)
+{
+    <p>Cargando el producto...@id</p>
+}
+else 
+{
+    <div class="row">
+        <div class="col-4">
+            <div class="form-group mb-3">
+                <labeL>Id:</labeL>
+                <input type="text" class="form-control shadow fw-bold" readonly id="id"
+                @bind-value="@producto.Id"/>
+            </div>
+            <div class="form-group mb-3">
+                <label class="fw-bold">Name Product:</label>
+                <input type="text" class="form-control shadow" id="name" @bind-value="@producto.ProductName" readonly />
+            </div>
+            <div class="form-group mb-3">
+                <label class="fw-bold">Price:</label>
+                <InputNumber class="form-control shadow" id="price" @bind-Value="@producto.Price" readonly />
+            </div>
+            <div class="form-group mb-3">
+                <label class="fw-bold">Category:</label>
+                <InputText class="form-control shadow" id="category" @bind-Value="@producto.Category" readonly />
+            </div>
+            <div class="form-control mb-3">
+                <label class="fw-bold">Quantity:</label>
+                <InputNumber class="form-control shadow" id="quantity" @bind-Value="@producto.Quantity" readonly />
+            </div>
+            <div class="form-control mb-3">
+                <label class="fw-bold">Location:</label>
+                <InputText class="form-control shadow" id="location" @bind-Value="@producto.Location" readonly />
+            </div>
+            <div style="margin-top:30px;">
+                <button type="submit" class="btn btn-danger" @onclick="DeleteProduct">Delete Product</button>
+                <button class="btn btn-primary">Return Products</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public Product producto { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        producto = await GetProduct();
+    }
+
+    private async Task<Product> GetProduct()
+    {
+        var url = $"http://192.168.10.13:8080/api/products/buscarproducto?id={id}";
+        using (httpClient = new())
+        {
+            var response = await httpClient.GetAsync(url);
+            var reponseString = await response.Content.ReadAsStringAsync();
+            var item = JsonSerializer.Deserialize<Product>(reponseString, new JsonSerializerOptions()
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+            return item!;
+        }
+    }
+
+    private async Task DeleteProduct()
+    {
+        var error = "";
+        using (httpClient = new())
+        {
+            try
+            {
+                var url = $"http://192.168.10.13:8080/api/products/borrarproducto?id={id}";
+                httpClient.DefaultRequestHeaders.Clear();
+                var response = await httpClient.DeleteAsync(url);
+                if (!response.IsSuccessStatusCode)
+                {
+                    error = $"Error del servidor: {response.StatusCode}";
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                error = "No se pudo conectar al servidor: " + ex.Message;
+            }
+        }
+
+        navigator.NavigateTo("../products/index");        
+    }
+}

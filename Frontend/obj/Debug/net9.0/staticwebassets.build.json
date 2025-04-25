@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ycQma+z/hHZnbAZDRaq8gDMCWEg+7Tszpx1bQPbXH68=",
+  "Hash": "ymnv8hvHC2IvjkJNxhZTUESrE7DCarA46tlGNT1jeck=",
   "Source": "Frontend",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "gv5v986zgd",
-      "Integrity": "hOe8qc9cDs2sefmXCv7glAnlzzQWeXl3HWb8qTaXBoU=",
+      "Fingerprint": "mnodoe755m",
+      "Integrity": "7oE8/syCUoqafw5vnzV/qXFbKJXjkHPQ6/fyyImIzOg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "86hexk982z",
-      "Integrity": "cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E=",
+      "Fingerprint": "htv5z7kwqe",
+      "Integrity": "Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\Frontend.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "3143w214o4",
-      "Integrity": "2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk=",
+      "Fingerprint": "73vjw8u71a",
+      "Integrity": "3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\webcil\\Frontend.wasm"
@@ -5498,12 +5498,12 @@
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.wasm"
     },
     {
-      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-86hexk982z.gz",
+      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-htv5z7kwqe.gz",
       "SourceId": "Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Frontend#[.{fingerprint=86hexk982z}]!.pdb.gz",
+      "RelativePath": "_framework/Frontend#[.{fingerprint=htv5z7kwqe}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5512,8 +5512,8 @@
       "RelatedAsset": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4nmhxmrj72",
-      "Integrity": "4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480=",
+      "Fingerprint": "q04jj4xq3q",
+      "Integrity": "Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.pdb"
@@ -6884,12 +6884,12 @@
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm"
     },
     {
-      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-3143w214o4.gz",
+      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-73vjw8u71a.gz",
       "SourceId": "Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Frontend#[.{fingerprint=3143w214o4}]!.wasm.gz",
+      "RelativePath": "_framework/Frontend#[.{fingerprint=73vjw8u71a}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6898,8 +6898,8 @@
       "RelatedAsset": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "to86mzmzbg",
-      "Integrity": "gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ=",
+      "Fingerprint": "3bgy8j3uko",
+      "Integrity": "8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.wasm"
@@ -7619,7 +7619,7 @@
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm"
     },
     {
-      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-gv5v986zgd.gz",
+      "Identity": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-mnodoe755m.gz",
       "SourceId": "Frontend",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\",
@@ -7633,8 +7633,8 @@
       "RelatedAsset": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sjid9g5vc2",
-      "Integrity": "KJhTN9dvjhgxdhzBqNN99mlxQrZfBK8G+X3IxEsOc4M=",
+      "Fingerprint": "sjjwwv1z3p",
+      "Integrity": "CAniiScnfgCgONhR4TDykEL+AujL2stD8f17DCnd8I8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hOe8qc9cDs2sefmXCv7glAnlzzQWeXl3HWb8qTaXBoU=\""
+          "Value": "\"7oE8/syCUoqafw5vnzV/qXFbKJXjkHPQ6/fyyImIzOg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hOe8qc9cDs2sefmXCv7glAnlzzQWeXl3HWb8qTaXBoU="
+          "Value": "sha256-7oE8/syCUoqafw5vnzV/qXFbKJXjkHPQ6/fyyImIzOg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-gv5v986zgd.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-mnodoe755m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080179602"
+          "Quality": "0.000080160321"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12471"
+          "Value": "12474"
         },
         {
           "Name": "ETag",
-          "Value": "\"KJhTN9dvjhgxdhzBqNN99mlxQrZfBK8G+X3IxEsOc4M=\""
+          "Value": "\"CAniiScnfgCgONhR4TDykEL+AujL2stD8f17DCnd8I8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:19:43 GMT"
+          "Value": "Fri, 25 Apr 2025 20:23:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hOe8qc9cDs2sefmXCv7glAnlzzQWeXl3HWb8qTaXBoU=\""
+          "Value": "W/\"7oE8/syCUoqafw5vnzV/qXFbKJXjkHPQ6/fyyImIzOg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hOe8qc9cDs2sefmXCv7glAnlzzQWeXl3HWb8qTaXBoU="
+          "Value": "sha256-7oE8/syCUoqafw5vnzV/qXFbKJXjkHPQ6/fyyImIzOg="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-gv5v986zgd.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\njn95cf9xo-mnodoe755m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12471"
+          "Value": "12474"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KJhTN9dvjhgxdhzBqNN99mlxQrZfBK8G+X3IxEsOc4M=\""
+          "Value": "\"CAniiScnfgCgONhR4TDykEL+AujL2stD8f17DCnd8I8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:19:43 GMT"
+          "Value": "Fri, 25 Apr 2025 20:23:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KJhTN9dvjhgxdhzBqNN99mlxQrZfBK8G+X3IxEsOc4M="
+          "Value": "sha256-CAniiScnfgCgONhR4TDykEL+AujL2stD8f17DCnd8I8="
         }
       ]
     },
@@ -12833,7 +12833,7 @@
       ]
     },
     {
-      "Route": "_framework/Frontend.3143w214o4.wasm",
+      "Route": "_framework/Frontend.73vjw8u71a.wasm",
       "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12843,7 +12843,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42773"
+          "Value": "50453"
         },
         {
           "Name": "Content-Type",
@@ -12851,11 +12851,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk=\""
+          "Value": "\"3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:39 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12865,7 +12865,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3143w214o4"
+          "Value": "73vjw8u71a"
         },
         {
           "Name": "label",
@@ -12873,18 +12873,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk="
+          "Value": "sha256-3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0="
         }
       ]
     },
     {
-      "Route": "_framework/Frontend.3143w214o4.wasm",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-3143w214o4.gz",
+      "Route": "_framework/Frontend.73vjw8u71a.wasm",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-73vjw8u71a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000063669935"
+          "Quality": "0.000055969105"
         }
       ],
       "ResponseHeaders": [
@@ -12894,15 +12894,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15705"
+          "Value": "17866"
         },
         {
           "Name": "ETag",
-          "Value": "\"gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ=\""
+          "Value": "\"8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12922,13 +12922,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk=\""
+          "Value": "W/\"3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3143w214o4"
+          "Value": "73vjw8u71a"
         },
         {
           "Name": "label",
@@ -12936,13 +12936,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk="
+          "Value": "sha256-3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0="
         }
       ]
     },
     {
-      "Route": "_framework/Frontend.3143w214o4.wasm.gz",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-3143w214o4.gz",
+      "Route": "_framework/Frontend.73vjw8u71a.wasm.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-73vjw8u71a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12951,7 +12951,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15705"
+          "Value": "17866"
         },
         {
           "Name": "Content-Type",
@@ -12959,11 +12959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ=\""
+          "Value": "\"8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12981,7 +12981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3143w214o4"
+          "Value": "73vjw8u71a"
         },
         {
           "Name": "label",
@@ -12989,12 +12989,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ="
+          "Value": "sha256-8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0="
         }
       ]
     },
     {
-      "Route": "_framework/Frontend.86hexk982z.pdb",
+      "Route": "_framework/Frontend.htv5z7kwqe.pdb",
       "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Frontend.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13004,7 +13004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35376"
+          "Value": "39780"
         },
         {
           "Name": "Content-Type",
@@ -13012,11 +13012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E=\""
+          "Value": "\"Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:38 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13026,7 +13026,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "86hexk982z"
+          "Value": "htv5z7kwqe"
         },
         {
           "Name": "label",
@@ -13034,18 +13034,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E="
+          "Value": "sha256-Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU="
         }
       ]
     },
     {
-      "Route": "_framework/Frontend.86hexk982z.pdb",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-86hexk982z.gz",
+      "Route": "_framework/Frontend.htv5z7kwqe.pdb",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-htv5z7kwqe.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000036647488"
+          "Quality": "0.000032313310"
         }
       ],
       "ResponseHeaders": [
@@ -13055,15 +13055,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27286"
+          "Value": "30946"
         },
         {
           "Name": "ETag",
-          "Value": "\"4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480=\""
+          "Value": "\"Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13083,13 +13083,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E=\""
+          "Value": "W/\"Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "86hexk982z"
+          "Value": "htv5z7kwqe"
         },
         {
           "Name": "label",
@@ -13097,13 +13097,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E="
+          "Value": "sha256-Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU="
         }
       ]
     },
     {
-      "Route": "_framework/Frontend.86hexk982z.pdb.gz",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-86hexk982z.gz",
+      "Route": "_framework/Frontend.htv5z7kwqe.pdb.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-htv5z7kwqe.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13112,7 +13112,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27286"
+          "Value": "30946"
         },
         {
           "Name": "Content-Type",
@@ -13120,11 +13120,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480=\""
+          "Value": "\"Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13142,7 +13142,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "86hexk982z"
+          "Value": "htv5z7kwqe"
         },
         {
           "Name": "label",
@@ -13150,7 +13150,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480="
+          "Value": "sha256-Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8="
         }
       ]
     },
@@ -13165,7 +13165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35376"
+          "Value": "39780"
         },
         {
           "Name": "Content-Type",
@@ -13173,11 +13173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E=\""
+          "Value": "\"Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:38 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13187,18 +13187,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E="
+          "Value": "sha256-Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU="
         }
       ]
     },
     {
       "Route": "_framework/Frontend.pdb",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-86hexk982z.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-htv5z7kwqe.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000036647488"
+          "Quality": "0.000032313310"
         }
       ],
       "ResponseHeaders": [
@@ -13208,15 +13208,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27286"
+          "Value": "30946"
         },
         {
           "Name": "ETag",
-          "Value": "\"4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480=\""
+          "Value": "\"Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13236,19 +13236,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E=\""
+          "Value": "W/\"Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cG80Fo/1eFsVGRYCbsw7dRZvvUjJra6vfP6CUDp/13E="
+          "Value": "sha256-Ve9mjHqX3qY15QKLho56qsExe7SrghoidBkU6rMVugU="
         }
       ]
     },
     {
       "Route": "_framework/Frontend.pdb.gz",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-86hexk982z.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\820j4a4l7m-htv5z7kwqe.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13257,7 +13257,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27286"
+          "Value": "30946"
         },
         {
           "Name": "Content-Type",
@@ -13265,11 +13265,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480=\""
+          "Value": "\"Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13287,7 +13287,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4NWoVQxw7F5vW67EXxxYVQFBo4S/90yBCLZ0Ce2N480="
+          "Value": "sha256-Gq6dN2PlNchuP5sNlkTBOq0vagY4VH/m1AHFcZuGfw8="
         }
       ]
     },
@@ -13302,7 +13302,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42773"
+          "Value": "50453"
         },
         {
           "Name": "Content-Type",
@@ -13310,11 +13310,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk=\""
+          "Value": "\"3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:39 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13324,18 +13324,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk="
+          "Value": "sha256-3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0="
         }
       ]
     },
     {
       "Route": "_framework/Frontend.wasm",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-3143w214o4.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-73vjw8u71a.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000063669935"
+          "Quality": "0.000055969105"
         }
       ],
       "ResponseHeaders": [
@@ -13345,15 +13345,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15705"
+          "Value": "17866"
         },
         {
           "Name": "ETag",
-          "Value": "\"gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ=\""
+          "Value": "\"8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13373,19 +13373,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk=\""
+          "Value": "W/\"3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2VCEFIN7eICCh1NgEQua6ffVTzofI5sPfAbZ1XHa/Wk="
+          "Value": "sha256-3ftnWpdmiWmRM4zej32+ohUp4se4di0LboqFib3Yss0="
         }
       ]
     },
     {
       "Route": "_framework/Frontend.wasm.gz",
-      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-3143w214o4.gz",
+      "AssetFile": "C:\\Programacion\\DatalogicWeb\\Frontend\\obj\\Debug\\net9.0\\compressed\\idv3gmpu33-73vjw8u71a.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13394,7 +13394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15705"
+          "Value": "17866"
         },
         {
           "Name": "Content-Type",
@@ -13402,11 +13402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ=\""
+          "Value": "\"8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 25 Apr 2025 13:28:40 GMT"
+          "Value": "Fri, 25 Apr 2025 20:05:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13424,7 +13424,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gyzqI5o3zpq3eLv4v1xS8OLirRWlb4/NFrEf446g2iQ="
+          "Value": "sha256-8ZRjiqKopBCV2CLwRZMeMl8+IpDJ9gXMI2q21A+RQi0="
         }
       ]
     },

@@ -41,12 +41,11 @@ namespace Backend.Controllers
             return updated ? NoContent() : NotFound();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<bool>> Delete(int id) 
+        [HttpDelete("BorrarProducto")]
+        public async Task<ActionResult<bool>> Delete([FromQuery] int id) 
         {
             var eliminated = await Productservice.DeleteProductAsync(id);
             return eliminated ? NoContent() : NotFound();
         }
-
     }
 }
