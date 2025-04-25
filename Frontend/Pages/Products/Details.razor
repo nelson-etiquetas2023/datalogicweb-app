@@ -1,22 +1,22 @@
-﻿@page "/products/delete/{id:int}"
+﻿@page "/products/details/{id:int}"
 @using Shared.Model
 @using System.Text.Json
 @inject HttpClient httpClient
-@inject NavigationManager navigator 
 
-<h3>Delete Products</h3>
-@if(producto is null)
+
+<h3>Details Products</h3>
+@if (producto is null)
 {
     <p>Cargando el producto...@id</p>
 }
-else 
+else
 {
     <div class="row">
         <div class="col-4">
             <div class="form-group mb-3">
                 <labeL>Id:</labeL>
                 <input type="text" class="form-control shadow fw-bold" readonly id="id"
-                @bind-value="@producto.Id"/>
+                       @bind-value="@producto.Id" />
             </div>
             <div class="form-group mb-3">
                 <label class="fw-bold">Name Product:</label>
@@ -39,16 +39,17 @@ else
                 <InputText class="form-control shadow" id="location" @bind-Value="@producto.Location" readonly />
             </div>
             <div style="margin-top:30px;">
-                <button type="submit" class="btn btn-danger" @onclick="DeleteProduct">Delete Product</button>
-                <a href="/products" class="btn btn-primary">Return Products</a>
+                <a href="/products/index" class="btn btn-primary">Return Products</a>
             </div>
         </div>
     </div>
 }
 
 @code {
+
     [Parameter]
     public int id { get; set; }
+
     public Product producto { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
@@ -69,29 +70,5 @@ else
                 });
             return item!;
         }
-    }
-
-    private async Task DeleteProduct()
-    {
-        var error = "";
-        using (httpClient = new())
-        {
-            try
-            {
-                var url = $"http://192.168.10.13:8080/api/products/borrarproducto?id={id}";
-                httpClient.DefaultRequestHeaders.Clear();
-                var response = await httpClient.DeleteAsync(url);
-                if (!response.IsSuccessStatusCode)
-                {
-                    error = $"Error del servidor: {response.StatusCode}";
-                }
-            }
-            catch (HttpRequestException ex)
-            {
-                error = "No se pudo conectar al servidor: " + ex.Message;
-            }
-        }
-
-        navigator.NavigateTo("../products/index");        
     }
 }
