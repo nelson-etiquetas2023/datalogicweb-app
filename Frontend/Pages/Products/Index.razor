@@ -1,62 +1,46 @@
 ﻿@page "/Products/Index"
 @using Shared.Model
 @using System.Text.Json
+@using Microsoft.AspNetCore.Components.QuickGrid    
 @inject HttpClient httpClient
 @inject NavigationManager navigator
-
-
 
 <PageTitle>Products</PageTitle>
 <h3>Products Page</h3>
 <button class="btn btn-primary" style="margin-bottom:20px" @onclick="AddProducts">Add Products</button>
+@if (products is null)
+{
+    <p>Cargando productos...</p>
+}
+else 
+{
+    <div class="search-container">
+         <p>Search: </p> <input type="text" class="form-control" placeholder="search products..." id="txtbuscar"  />
+         <button class="btn btn-primary">Search</button>
+    </div>
+    
+    <QuickGrid
+    Theme="corporate"
+    Pagination="@pagination"
+    Items="@products.AsQueryable()"
+    ItemKey="@(x => x.Id )">
+        <PropertyColumn Title="Id." Property="@(p => p.Id)" Sortable="true" />
+        <PropertyColumn Title="Product Name" Property="@(p => p.ProductName)" Sortable="true" />
+        <PropertyColumn Title="Price" Property="@(p => p.Price)" />
+        <PropertyColumn Title="Category" Property="@(p => p.Category)" Sortable="true" />
+        <PropertyColumn Title="Location" Property="@(p => p.Location)" Sortable="true" />
+        <TemplateColumn Title="Acciones" Context="Product">
+            <a href="@($"/products/details/{Product.Id}")">Details</a>
+            <a href="@($"/products/update/{Product.Id}")">Update</a>
+            <a href="@($"/products/delete/{Product.Id}")">Delete</a>
+        </TemplateColumn>
+</QuickGrid>
 
-<table class="table table-bordered table-striped shadows">
-    <thead>
-        <tr>
-            <th>
-                It.
-            </th>
-            <th>
-                Id.
-            </th>
-            <th>
-                Product Name
-            </th>    
-            <th>
-                Price
-            </th>
-            <th>
-                Category
-            </th>
-            <th>Quantity</th>
-            <th>Location</th>
-            <th>Accion</th>
-        </tr>
-    </thead>
-    <tbody>
-        @{
-            int fila = 0;
-        }
-        @foreach (var item in products!)
-        {
-            fila = fila + 1; 
-            <tr>
-                <td>@fila</td>
-                <td>@item.Id</td>
-                <td>@item.ProductName</td>
-                <td>@item.Price</td>
-                <td>@item.Category</td>
-                <td>@item.Quantity</td>
-                <td>@item.Location</td>
-                <td><a href="/products/details/@item.Id" class="icon-link me-3">Details</a>
-                    <a href="/products/update/@item.Id" class="icon-link me-3">Update</a><a href="/products/delete/@item.Id" class="icon-link">Delete</a></td>
-            </tr>
-        }
-
-    </tbody>
-</table>
+<Paginator State="@pagination" />
+}
 
 @code {
+    public PaginationState pagination = new PaginationState { ItemsPerPage = 15 };
     public static List<Product>? products = [];
 
     protected override async Task OnInitializedAsync()

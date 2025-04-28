@@ -1,0 +1,19 @@
+﻿.search-container {
+    display: flex;
+    align-items: center;
+    align-content:center;
+    width: 500px;
+    margin-bottom:15px;
+}
+
+.search-container p     
+{
+   font-weight:bold;
+   margin-right: 10px;
+}
+.search-container input 
+{
+   width: 300px;
+   flex: 1;
+   margin-right: 10px;
+}

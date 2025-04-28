@@ -160,3 +160,23 @@ main[b-yxi2lmzgn0] {
         overflow-y: auto;
     }
 }
+/* /Pages/Products/Index.razor.rz.scp.css */
+.search-container[b-twj1gph5rv] {
+    display: flex;
+    align-items: center;
+    align-content:center;
+    width: 500px;
+    margin-bottom:15px;
+}
+
+.search-container p[b-twj1gph5rv]     
+{
+   font-weight:bold;
+   margin-right: 10px;
+}
+.search-container input[b-twj1gph5rv] 
+{
+   width: 300px;
+   flex: 1;
+   margin-right: 10px;
+}

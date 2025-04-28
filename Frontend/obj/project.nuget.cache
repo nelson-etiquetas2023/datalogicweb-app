@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m6T1KJVmDIs=",
+  "dgSpecHash": "mlAS0EcFuvw=",
   "success": true,
   "projectFilePath": "C:\\Programacion\\DatalogicWeb\\Frontend\\Frontend.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.4\\microsoft.aspnetcore.components.9.0.4.nupkg.sha512",
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.4\\microsoft.aspnetcore.components.analyzers.9.0.4.nupkg.sha512",
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\9.0.4\\microsoft.aspnetcore.components.forms.9.0.4.nupkg.sha512",
+    "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.4\\microsoft.aspnetcore.components.quickgrid.9.0.4.nupkg.sha512",
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.4\\microsoft.aspnetcore.components.web.9.0.4.nupkg.sha512",
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.4\\microsoft.aspnetcore.components.webassembly.9.0.4.nupkg.sha512",
     "C:\\Users\\siste\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\9.0.4\\microsoft.aspnetcore.components.webassembly.devserver.9.0.4.nupkg.sha512",
